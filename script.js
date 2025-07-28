@@ -66,3 +66,12 @@ focusEvent.addEventListener('blur', function() {
         focusInput.textContent=`The input field has lost focus! Input: ${input}`;
     }
 });
+
+//Event Delegation
+const buttonContainer=document.getElementById("button-container");
+const delegationInput=document.getElementById("delegation-input");
+
+buttonContainer.addEventListener('click', function(event) {
+        const buttonInput=event.target.textContent;
+        delegationInput.textContent=`Event delegation button selected: ${buttonInput}`;
+});
