@@ -10,61 +10,63 @@
 <body>
     <header><h1>Lab 7: JavaScript Events</h1></header>
    
-    <div class="mouse-events">
-        <h2>Mouse Events</h2>
-        <p>Hover over the button to demonstrate mouse events:</p>
-        <button class="hover-btn" id="hover-btn">Hover Over Me</button>
-        <span class="mouse-btn" id="mouse-btn"></span>
-    </div>
+    <div class="text" id="text">
+        <div class="mouse-events">
+            <h2>Mouse Events</h2>
+            <p>Hover over the button to demonstrate mouse events:</p>
+            <button class="hover-btn" id="hover-btn">Hover Over Me</button>
+            <span class="mouse-btn" id="mouse-btn"></span>
+        </div>
 
-    <div class="keyboard-events">
-        <h2>Keyboard Events</h2>
-        <p>Type in the input field to capture keyboard events:</p>
-        <label for="keyboard-events">Keyboard Input:</label><br>
-        <input type="text" id="keyboard-events" name="keyboard-input">
-        <span class="keyboard-input" id="keyboard-input"></span>
-    </div>
+        <div class="keyboard-events">
+            <h2>Keyboard Events</h2>
+            <p>Type in the input field to capture keyboard events:</p>
+            <label for="keyboard-events">Keyboard Input:</label><br>
+            <input type="text" id="keyboard-events" name="keyboard-input">
+            <span class="keyboard-input" id="keyboard-input"></span>
+        </div>
 
-    <div class="form-events">
-        <h2>Form Events</h2>
-        <p>Submit the simple form to demonstrate form events:</p>
-        <form id="form-events">
-            <label for="name">Enter your name:</label><br>
-            <input type="text" id="name" name="name">
-            <span class="name-input" id="name-input"></span>
-            <br><br>
+        <div class="form-events">
+            <h2>Form Events</h2>
+            <p>Submit the simple form to demonstrate form events:</p>
+            <form id="form-events">
+                <label for="name">Enter your name:</label><br>
+                <input type="text" id="name" name="name">
+                <span class="name-input" id="name-input"></span>
+                <br><br>
 
-            <label for="email">Enter your email address:</label><br>
-            <input type="email" id="email" name="email">
-            <span class="email-input" id="email-input"></span>
-            <br><br>
+                <label for="email">Enter your email address:</label><br>
+                <input type="email" id="email" name="email">
+                <span class="email-input" id="email-input"></span>
+                <br><br>
 
-            <span class="form-input" id="form-input"></span>
-            <button type="submit" class="submitButton">Submit</button>
-            <button type="reset" class="resetButton">Reset</button>
+                <span class="form-input" id="form-input"></span>
+                <button type="submit" class="submitButton">Submit</button>
+                <button type="reset" class="resetButton">Reset</button>
 
-        </form>
-    </div>
+            </form>
+        </div>
 
-    <div class="focus-blur-events">
-        <h2>Focus and Blur Events</h2>
-        <p>Click in and out of the input field to demonstrate focus and blur events:</p>
-        <label>Input field:</label><br><br>
-        <input type="text" id="focusInput">
-        <span class="focus-input" id="focus-input"></span>
-    </div>
+        <div class="focus-blur-events">
+            <h2>Focus and Blur Events</h2>
+            <p>Click in and out of the input field to demonstrate focus and blur events:</p>
+            <label>Input field:</label><br>
+            <input type="text" id="focusInput">
+            <span class="focus-input" id="focus-input"></span>
+        </div>
 
-    <div class="delegation-events">
-        <h2>Event Delegation</h2>
-        <p>Click a button in the container with multiple buttons to demonstrate event delegation:</p>
-        <div class="button-container" id="button-container">
-            <button>Button A</button>
-            <button>Button B</button>
-            <button>Button C</button>
-            <button>Button D</button>
-        </div><br>
+        <div class="delegation-events">
+            <h2>Event Delegation</h2>
+            <p>Click a button in the container with multiple buttons to demonstrate event delegation:</p>
+            <div class="button-container" id="button-container">
+                <button class="buttons">Button A</button>
+                <button class="buttons">Button B</button>
+                <button class="buttons">Button C</button>
+                <button class="buttons">Button D</button>
+            </div><br>
 
-        <span class="delegation-input" id="delegation-input"></span>
+            <span class="delegation-input" id="delegation-input"></span>
+        </div>
     </div>
 </body>
 </html>

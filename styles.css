@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: plum;
+    font-family: Arial;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    line-height: 24px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 4px white;
+}
+
+.text{
+    margin: 0 auto;
+    background-color: lightgray;
+    padding: 5px;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px black;
+}
+
+p{
+    background-color: rgba(175, 86, 175, 0.753);
+    padding: 10px;
+    margin: 10px;
+    margin-top: 0px;
+    width: 50%;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 25px;
+    color: rgb(16, 48, 22);
+    text-decoration: underline;
+    padding: 10px;
+    margin: 3px;
+}
+
+.mouse-events, .keyboard-events, .form-events, .focus-blur-events, .delegation-events{
+    background-color: plum;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px black;
+}
+
+.hover-btn{
+    line-height: 20px;
+    color: white;
+    background-color: purple;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    border: 1px solid white;
+    box-shadow: 0.5px 0.5px 0.5px white;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.hover-btn:hover{
+    background-color: rgb(221, 132, 147);
+    box-shadow: 0.5px 0.5px 0.5px white;
+}
+
+.mouse-btn, .keyboard-input, .form-input, .focus-input, .delegation-input{
+    padding: 20px;
+}
+
+.submitButton, .resetButton{
+    width: 10%;
+    line-height: 20px;
+    color: black;
+    background-color: pink;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    box-shadow: 0.5px 0.5px 0.5px black;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.submitButton:hover, .resetButton:hover{
+    background-color: papayawhip;
+    box-shadow: 0.5px 0.5px 0.5px black;
+}
+
+.button-container{
+    background-color: lightpink;
+    padding: 20px;
+    margin: 10px;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.buttons{
+    width: 40%;
+    line-height: 20px;
+    color: black;
+    background-color: palevioletred;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    box-shadow: 0.5px 0.5px 0.5px black;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.buttons:hover{
+    background-color: peachpuff;
+    box-shadow: 0.5px 0.5px 0.5px white;
+}
+
+input{
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+}
+
+label{
+    padding: 10px;
+    font-weight: 600;
+}
