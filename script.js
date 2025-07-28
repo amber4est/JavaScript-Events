@@ -13,3 +13,15 @@ mouseButton.addEventListener("mouseleave", function() {
 mouseButton.addEventListener("click", function() {
     mouseMessage.textContent="Button was clicked!";
 });
+
+//Keyboard Event
+const keyboardEvent=document.getElementById("keyboard-events");
+const keyboardInput=document.getElementById("keyboard-input");
+
+keyboardEvent.addEventListener("keydown", function(keys) {
+    keyboardInput.textContent=`Key Pressed: ${keys.key}`;
+});
+
+keyboardEvent.addEventListener("keyup", function(keys) {
+    keyboardInput.textContent=`Key Released: ${keys.key}, Text Inputted: ${keys.target.value}`;
+});
