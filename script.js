@@ -46,3 +46,23 @@ formEvents.addEventListener('reset', function() {
     formEvents.reset();
     formInput.textContent="Form has been reset!";
 });
+
+//Focus Blur Events
+const focusEvent=document.getElementById("focusInput");
+const focusInput=document.getElementById("focus-input");
+
+focusEvent.addEventListener('focus', function() {
+    focusInput.textContent ="The input field has gained focus!";
+});
+
+focusEvent.addEventListener('blur', function() {
+    const inputInput=document.getElementById("focusInput");
+    const input=inputInput.value;
+
+    if (input.trim()===''){
+        focusInput.textContent="The input field has lost focus! No input entered.";
+    }
+    else{
+        focusInput.textContent=`The input field has lost focus! Input: ${input}`;
+    }
+});
